@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -107,6 +108,11 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+      <div className='flex flex-col'>
+        {/* Use 'Link' instead of 'a' tag */}
+        <Link href="/blog">Blog</Link>
+        <Link href="/products">Products</Link>
       </div>
     </main>
   )
