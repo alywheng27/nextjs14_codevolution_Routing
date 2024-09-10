@@ -207,11 +207,12 @@
 
 ## Intercepting Routes Conventions
 - (.)foldername - interceptor folder must be the same level as the default folder.
-- (..)foldername - interceptor folder must be one level deeper than the default folder
+- (..)foldername - interceptor folder must be one level deeper than the default folder.
 - (..)(..)foldername - interceptor folder must be two level deeper than the default folder
   (..)(..) not working as of October 2023
 - (...)foldername - the root app folder will be the default folder of the interceptor folder
 
+- Interceptor folder can be inside the default folder.
 - Can also use (..)foldername/foldername.
 - default folder name and interceptor folder name must be the same.
 

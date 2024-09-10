@@ -1,6 +1,9 @@
 import React from 'react'
 
 //  ? [...foldername] (catch-all-segments) captures all URL segments and maps them to page.tsx.
+// ! Shows 'page not found' when no segment in URL
+// title variable is used because the name of the folder is slug.
+
 export default function Title({ params, }: { params: {
     title: string[];
 } }) {
@@ -14,5 +17,5 @@ export default function Title({ params, }: { params: {
         )
     }
     return (<div>No Segment</div>)
-  
+    // Shows 'page not found' when no segment in URL
 }

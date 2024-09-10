@@ -20,6 +20,7 @@ export default function PhotoPage({
         />
 
         <div className="bg-white py-4">
+          <h3 className="text-black">Outside Dynamic Page</h3>
           <h3 className="text-black">{photo.photographer}</h3>
           <h3 className="text-black">{photo.location}</h3>
         </div>

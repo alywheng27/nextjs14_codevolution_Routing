@@ -18,6 +18,7 @@ export default function PhotoModal({
       />
 
       <div className="bg-white p-4">
+        <h2 className="text-black">Inside Parallel Route</h2>
         <h2 className="text-xl font-semibold text-black">{photo.name}</h2>
         <h3 className="text-black">{photo.photographer}</h3>
         <h3 className="text-black">{photo.location}</h3>
