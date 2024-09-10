@@ -1,10 +1,10 @@
 import Card from '@/app/components/card'
 import React from 'react'
 
-const DefaultUsers = () => {
+const DefaultUser = () => {
   return (
-    <Card>Default Users Analytics</Card>
+    <Card>Default User Analytics</Card>
   )
 }
 
-export default DefaultUsers
+export default DefaultUser

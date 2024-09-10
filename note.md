@@ -1,5 +1,8 @@
 ### Summary Note
 
+## Creating Next App
+- npx create-next-app@latest
+
 ## Routing
 - The name of the folder is the URL with page.tsx in it.
 
@@ -107,7 +110,7 @@
 # Independent Route Handling
 - Each slot of your layout, can have its own loading or error states.
 - Beneficial in scenarios where different sections of the page load at varying speeds or encounter unique errors.
-- Only the the error section will be affected and not the entire page.
+  Only the the error section will be affected and not the entire page.
 # Sub-navigation in routes
 - each slot can essentially function as a mini-application, complete with its own navigation and state management.
 - Useful where different sections serve distinct purposes.
@@ -124,7 +127,8 @@
 # Page Reload
 - Nextjs immediately searches for a default.tsx file within each unmatched slot.
 - The presence of a default.tsx file is critical, as it provides the default contents that nextjs will render in the user interface.
-- If this default.tsx file is missing in any of the unmatched slots for the current route, nextjs will render a 404 error.
+- If this default.tsx file is missing in any of the unmatched slots for the current route, nextjs will render a 404 error
+  not just in a slot but in a whole page.
 
 # Default.tsx
 - the default.tsx file in nextjs serves a fallback to render content when the
